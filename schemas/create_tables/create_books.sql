@@ -1,0 +1,10 @@
+CREATE TABLE Books (
+	BookId INT PRIMARY KEY IDENTITY,
+	Title VARCHAR(255) NOT NULL,
+	Author VARCHAR(255) NOT NULL,
+	ISBN VARCHAR(13) NOT NULL UNIQUE,
+	PublishedDate DATE NOT NULL,
+	Genre VARCHAR(50) NOT NULL, 
+	ShelfLocation VARCHAR(50) NOT NULL,
+	CurrentStatus VARCHAR(10) NOT NULL CHECK (CurrentStatus IN ('Available', 'Borrowed'))
+);
