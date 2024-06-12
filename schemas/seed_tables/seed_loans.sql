@@ -998,3 +998,6 @@ insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) valu
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (302, 571, '5/10/2024', '5/20/2024', '5/13/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (520, 351, '12/7/2023', '12/17/2023', '12/15/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (216, 471, '1/3/2024', '1/13/2024', '1/6/2024');
+insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (101, 201, '10/01/2023', '11/01/2023', '11/15/2023');
+insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (102, 202, '10/01/2023', '11/01/2023', NULL);
+insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (103, 203, '10/01/2023', '11/01/2023', '12/10/2023');
