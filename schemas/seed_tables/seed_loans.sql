@@ -267,7 +267,7 @@ insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) valu
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (63, 163, '8/20/2023', '8/30/2023', '8/25/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (675, 716, '11/11/2023', '11/21/2023', '11/19/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (438, 412, '5/22/2024', '6/1/2024', '5/27/2024');
-insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (262, 351, '7/22/2023', '8/1/2023', '8/1/2023');
+insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (438, 351, '7/22/2023', '8/1/2023', '8/1/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (844, 729, '5/27/2024', '6/6/2024', '6/4/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (640, 812, '5/26/2024', '6/5/2024', '5/30/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (424, 128, '6/20/2023', '6/30/2023', '6/25/2023');
@@ -341,7 +341,7 @@ insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) valu
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (106, 713, '1/16/2024', '1/26/2024', '1/25/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (846, 836, '8/26/2023', '9/5/2023', '8/31/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (973, 475, '4/17/2024', '4/27/2024', '4/18/2024');
-insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (761, 160, '4/2/2024', '4/12/2024', '4/7/2024');
+insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (761, 254, '6/4/2024', '6/14/2024', null);
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (728, 68, '12/17/2023', '12/27/2023', '12/27/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (88, 572, '3/29/2024', '4/8/2024', '4/2/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (611, 172, '5/3/2024', '5/13/2024', '5/10/2024');
@@ -355,7 +355,7 @@ insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) valu
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (341, 656, '4/27/2024', '5/7/2024', '5/7/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (928, 496, '6/19/2023', '6/29/2023', '6/22/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (845, 181, '7/12/2023', '7/22/2023', '7/16/2023');
-insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (526, 626, '3/14/2024', '3/24/2024', '3/21/2024');
+insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (526, 626, '6/11/2024', '6/21/2024', null);
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (847, 62, '12/18/2023', '12/28/2023', '12/26/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (892, 885, '10/30/2023', '11/9/2023', '11/8/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (807, 122, '2/8/2024', '2/18/2024', '2/17/2024');
@@ -527,7 +527,7 @@ insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) valu
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (190, 349, '5/8/2024', '5/18/2024', '5/11/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (230, 805, '3/17/2024', '3/27/2024', '3/20/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (718, 805, '9/16/2023', '9/26/2023', '9/26/2023');
-insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (262, 409, '11/28/2023', '12/8/2023', '12/5/2023');
+insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (718, 409, '11/28/2023', '12/8/2023', '12/5/2023');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (631, 295, '2/25/2024', '3/6/2024', '2/29/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (950, 75, '4/5/2024', '4/15/2024', '4/8/2024');
 insert into Loans (BookID, BorrowerID, DateBorrowed, DueDate, DateReturned) values (662, 48, '7/27/2023', '8/6/2023', '8/5/2023');
