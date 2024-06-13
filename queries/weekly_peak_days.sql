@@ -29,4 +29,3 @@ SELECT
     PercentageOfLoans
 FROM DayPercentages
 ORDER BY PercentageOfLoans DESC;
--- OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY;
