@@ -1,5 +1,5 @@
 -- Genre Preference by Age using Group By and Having: 
--- Determine the preferred genre of different age groups of borrowers. (Groups are (0,10), (11,20), (21,30)…)
+-- Determine the preferred genre of different age groups of borrowers. (Groups are (0,10), (11,20), (21,30)ï¿½)
 
 -- FUNCTION FOR RETURNING AGE RANGE
 CREATE FUNCTION fn_ageRange (@DateOfBirth DATE)
@@ -27,16 +27,21 @@ WITH GenreBorrowCounts AS (
 	SELECT
 		dbo.fn_ageRange(bor.DateOfBirth) AS AgeRange,
 		b.Genre, 
-		COUNT(*) AS BorrowCount,
-		ROW_NUMBER() OVER (PARTITION BY dbo.fn_ageRange(bor.DateOfBirth) ORDER BY COUNT(*) DESC) AS RowNum
+		COUNT(*) AS BorrowCount
 		FROM Loans AS l
 		JOIN Books AS b ON l.BookID = b.BookID
 		JOIN Borrowers AS bor ON bor.BorrowerID = l.BorrowerID
 		GROUP BY dbo.fn_ageRange(bor.DateOfBirth), b.Genre
-		HAVING COUNT (*) > 1
+), RankedGenres AS (
+	SELECT 
+		AgeRange, 
+		Genre,
+		BorrowCount,
+		ROW_NUMBER() OVER (PARTITION BY AgeRange ORDER BY BorrowCount DESC) as RowNumber
+	FROM GenreBorrowCounts
 )
 
 SELECT AgeRange, Genre, BorrowCount
-FROM GenreBorrowCounts
-WHERE RowNum = 1
+FROM RankedGenres
+WHERE RowNumber = 1
 ORDER BY AgeRange;
